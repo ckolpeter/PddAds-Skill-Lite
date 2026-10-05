@@ -1,0 +1,90 @@
+{
+  "slug": "pddads",
+  "name": "PddAds Skill Lite",
+  "platform": "pinduoduo",
+  "market": "CN",
+  "currency": "CNY",
+  "focus": "拼多多商品準備度、低毛利／優惠退款檢查與報表診斷",
+  "modes": [
+    "product",
+    "search_intent",
+    "storewide"
+  ],
+  "workflows": {
+    "product": [
+      "從商家到手淨收入開始",
+      "確認平台費、履約及其他成本",
+      "低價不等於有廣告空間",
+      "保留不完整成本為未知"
+    ],
+    "search_intent": [
+      "搜尋詞僅為提供資料的研究候選",
+      "確認當前商家端是否有相關控制",
+      "不使用舊多多搜尋設定作預設",
+      "逐一核對商品相關性"
+    ],
+    "storewide": [
+      "先定義全域成交範圍",
+      "分開廣告成交與自然成交",
+      "相同期間、同一層級才加總",
+      "退款成熟後人工判斷"
+    ]
+  },
+  "creative_tasks": {
+    "product": [
+      "列出到手價、優惠、品質與履約證據",
+      "不捏造比價優勢或最低價"
+    ],
+    "search_intent": [
+      "提供搜尋詞→需求→商品說明",
+      "不自動新增否定關鍵字"
+    ],
+    "storewide": [
+      "整理促銷條件與成本版本",
+      "避免把毛 GMV 当結算收入"
+    ]
+  },
+  "budget_scope": {
+    "product": "equal_split_pilot_accounting_not_live_settings",
+    "search_intent": "equal_split_pilot_accounting_not_live_settings",
+    "storewide": "equal_split_pilot_accounting_not_live_settings"
+  },
+  "storefronts": [
+    "pinduoduo"
+  ],
+  "report_goals": [
+    "sales"
+  ],
+  "notes": [
+    "公開資料只核對服務生態，未核驗當前商家後台廣告控制。搜尋／全域為規劃類別，不承諾仍可手動投放。"
+  ],
+  "checklist": [
+    "確認商家端實際功能、站點及商品資格",
+    "核對收入、優惠、退款與佣金是否重複扣除",
+    "只使用授權素材與可證實主張",
+    "核對歸因期間、行層級與是否含自然成交"
+  ],
+  "sources": [
+    {
+      "id": "PDDADS-1",
+      "title": "拼多多開放平台",
+      "url": "https://open.yangkeduo.com/",
+      "checked_on": "2026-10-05",
+      "scope": "CN",
+      "verification": "scope_verified",
+      "summary": "Official homepage lists promotion-management services. Detailed current ad controls and billing are not established by this page."
+    }
+  ],
+  "skill_id": "pddads-skill-lite",
+  "repo": "ckolpeter/PddAds-Skill-Lite",
+  "version": "1.0.0",
+  "source_policy": "Public-source scope snapshot 2026-10-05. Local modes are NOT platform enums. No live capability claim.",
+  "focus_i18n": [
+    "拼多多商品準備度、低毛利／優惠退款檢查與報表診斷",
+    "拼多多商品准备度、低毛利／优惠退款检查与报表诊断",
+    "Pinduoduo readiness, low-margin and settlement scenarios, and supplied-report diagnostics",
+    "拼多多の商品準備、低利益率・割引・返品の確認とレポート分析",
+    "핀둬둬 상품 준비도, 저마진·할인·환불 점검 및 보고서 진단"
+  ],
+  "english": "Pinduoduo readiness, low-margin and settlement scenarios, and supplied-report diagnostics"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "PddAds Skill Lite"
+  short_description: "拼多多商品準備度、低毛利／優惠退款檢查與報表診斷"
+  default_prompt: "Use $pddads-skill-lite to prepare a mainland-China offline plan from supplied data, preserving unknowns and requiring human review."
+policy:
+  allow_implicit_invocation: true
