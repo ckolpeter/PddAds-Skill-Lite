@@ -4,7 +4,7 @@ description: Pinduoduo readiness, low-margin and settlement scenarios, and suppl
 license: Apache-2.0
 compatibility: Python 3.10+ standard library. Host agent supplies language interpretation.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   edition: "lite"
   brand: "AI Ads Academy"
   external-reads: "false"
